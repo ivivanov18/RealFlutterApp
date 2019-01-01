@@ -1,16 +1,4 @@
 # real_world_flutter_app
 
-App built from the tutorial of the channel Lets Build That App (https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=S59b-XFsyY8&amp;t=2336s)
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+App built from the tutorial of the channel Lets Build That App. The lesson
+is called _Complete Guide to Flutter: How to Build a Real World App_.

@@ -61,10 +61,34 @@ class RealWorldState extends State<RealWorldApp>{
               itemCount: this.videos != null ? this.videos.length : 0,
               itemBuilder: (context, i){
                 final video = this.videos[i];
-                return VideoCellWidget(video);
+                return FlatButton(
+                  child: VideoCellWidget(video),
+                  onPressed: (){
+                    print("Video $i pressed");
+                    Navigator.push(context,
+                      MaterialPageRoute(
+                        builder: (context) => DetailPageWidget()
+                      )
+                    );
+                  },
+                );
               },
             )
         )
+      )
+    );
+  }
+}
+
+class DetailPageWidget extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Detail screen")
+      ),
+      body: Center(
+        child: Text("Detail detail detail")
       )
     );
   }
